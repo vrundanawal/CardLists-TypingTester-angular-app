@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
+import { TypingComponent } from './typing/typing.component';
+import { HeroSectionComponent } from './hero-section/hero-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    TypingComponent,
+    HeroSectionComponent
   ],
   imports: [
     BrowserModule

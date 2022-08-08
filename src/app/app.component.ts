@@ -25,5 +25,23 @@ export class AppComponent {
       imageUrl: 'assets/biking.jpeg',
       content: 'I did some biking today',
     },
+    {
+      title: 'Lake View',
+      username: 'vrunda12',
+      imageUrl: 'assets/lake.jpg',
+      content: 'This a awesome Lake ..I loved!!!',
+    },
   ];
+
+  /* for the hero section data*/
+
+  section_one = {
+    title: 'Card with List',
+    subtitle: 'Basic of Angular with small project',
+  };
+
+  section_two = {
+    title: 'Typing Tester',
+    subtitle: 'Typing tester app',
+  };
 }

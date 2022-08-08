@@ -1,6 +1,12 @@
 /*same to select app-root */
-:host {
+/* :host {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
