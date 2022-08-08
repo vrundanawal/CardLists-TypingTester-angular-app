@@ -16,6 +16,14 @@ export class TypingComponent implements OnInit {
     this.enteredText = value;
   }
 
+  compare(randomLetter: string, enteredLetter: string) {
+    if (!enteredLetter) {
+      return 'pending';
+    }
+
+    //using ternory operotor
+    return randomLetter === enteredLetter ? 'correct' : 'incorrect';
+  }
   constructor() {}
   ngOnInit(): void {}
 }
