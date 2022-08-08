@@ -13,6 +13,7 @@
         <input
           class="input"
           (input)="handleOnInput($any($event.target).value)"
+          onpaste="return false"
         />
       </div>
 
